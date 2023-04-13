@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(80, 73, 73);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+}
+
+.workout {
+    margin: 0.8rem;
+}
+
+.col-3-1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.active {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
